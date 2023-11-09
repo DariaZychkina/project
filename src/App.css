@@ -1,0 +1,170 @@
+@font-face{ 
+  font-family: 'Poppin-Regular';
+  src: url(fonts/Poppins-Regular.ttf);
+}
+
+body {
+  background-color: rgba(25, 23, 47, 1);
+  font-family: 'Poppin-Regular';
+  color: rgba(255, 255, 255, 1);
+  padding-top: 41px;
+  transition: .5s ease-in-out;
+}
+
+.App {
+  width: fit-content;
+  margin: auto;
+  overflow: hidden;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+@media(max-width: 1980px) {
+  .header, .footer {width: 1248px;}
+}
+
+@media(max-width: 1200px) {
+  .header, .footer {width: 800px;}
+}
+
+
+.header {
+  height: 32px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.leftContent {
+  display: flex;
+  flex-direction: row;  
+  align-items: center;
+  gap: 40px;
+}
+
+.rightContent {
+  display: flex;
+  flex-direction: row; 
+  align-items: flex-start;
+  gap: 5px;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: 600;
+  width: 180px;
+  height: 32px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;  
+}
+
+.links {
+  display: inline-flex;
+  align-items: center;
+  gap: 20px;
+}
+
+a {
+  font-size: 14px;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 1);
+  opacity: 70%;
+  font-weight: 500;
+}
+
+a.active {
+  font-weight: 700;
+  color: rgba(64, 165, 243, 1);
+  opacity: 100%;
+}
+
+.settings {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.24px;
+  display: flex;
+  width: fit-content;
+  padding: 7px 6px 7px 6px;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  border-radius: 30px;
+  background: #222342;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.footer {
+  display: flex;
+  height: 26px;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+  margin: auto;
+}
+
+.docs {
+  display: inline-flex;
+  align-items: center;
+  gap: 11px;
+}
+
+.line {
+  height: 100%;
+  width: 1px;
+  border-left: 1px solid rgba(186, 191, 199, 1);
+}
+
+.content {
+  width: 523px;
+  height: 554px;
+  margin: auto;
+  flex-shrink: 0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  border-radius: 20px;
+  background: linear-gradient(180deg, #222342 0%, rgba(34, 35, 66, 0.00) 100%);
+  box-shadow: 0 4px 40px 0 rgba(0, 0, 0, 0.25);
+}
+
+.exchangeRate {
+  width: 443px;
+  height: 20px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  display: flex;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0.32px;
+  flex-direction: row;
+  align-items: center;
+  gap: 11px;
+  padding: 10px 20px;
+  background-color: rgba(255, 255, 255, 0.04);
+}
+
+#resultCount {
+  color: #40A5F3;
+}
+
+.connectBtn {
+  width: 467px;
+  height: 24px;
+  padding: 16px 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+  border-radius: 14px;
+  background: #40A5F3;
+}
+

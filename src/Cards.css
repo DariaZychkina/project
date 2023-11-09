@@ -1,0 +1,106 @@
+.title {
+  width: 100%;
+  font-size: 18px;
+  line-height: 140%; /* 25.2px */
+  letter-spacing: 0.36px;
+  display: inline-flex;
+  gap: 14px;
+  }
+
+.disableLabel {
+  font-weight: 400;
+  opacity: 0.3;
+}
+
+.activeLabel {
+  font-weight: 600;
+  opacity: 100%;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+
+.unactiveCard {
+  width: 433px;
+  height: 126px;
+  padding: 18px 25px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgba(255, 255, 255, 0.04);
+}
+
+.activeCard {
+  width: 433px;
+  height: 126px;
+  padding: 18px 25px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgba(255, 255, 255, 0.2);  
+}
+
+.logoCurrency {
+  width: 36px;
+  height: 36px;
+}
+
+.arrow {
+  width: 14px;
+  height: 14px;
+}
+
+.order {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0.36px;
+  margin: 0;
+  opacity: 0.7;
+}
+
+.currency {
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.currencyName {
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.sum {
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 600;
+
+}
+.curSelected {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-shrink: 0;
+  gap: 6px;
+}
+
+.convert {
+  display: flex;
+  height: 22px;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  opacity: 0.7;
+}  
